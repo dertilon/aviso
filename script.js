@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const submitButton = document.getElementById('submitButton');
 
     // Reemplaza esta URL con la URL de tu Web App de Google Apps Script
-    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyNkW03OqA-q5xPOZb5u3493Og0-XPMJhAGGuss2W4viDtAk5W5WPZifIbWr2r1KFjn/exec'; // ¡IMPORTANTE!
+    const GOOGLE_SCRIPT_URL ='https://script.google.com/macros/s/AKfycbyAkvXhkk8-U1RfbzGho3dWjsD3gJ34FcPMogdDsehxVaLHFo0F_BtO-01nKD40ldUs/exec'; // ¡IMPORTANTE!
 
     // Cargar opciones para Ubicación Técnica
     fetch('ubicaciones.txt')
