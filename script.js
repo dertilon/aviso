@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // La función generateAndDownloadCsv HA SIDO ELIMINADA
 
     async function sendDataToGoogleSheets(data) {
-        if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL === 'URL_DE_TU_GOOGLE_APPS_SCRIPT_WEB_APP') {
+        if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbyAkvXhkk8-U1RfbzGho3dWjsD3gJ34FcPMogdDsehxVaLHFo0F_BtO-01nKD40ldUs/exec') {
             console.warn("URL de Google Apps Script no configurada. No se pueden enviar los datos.");
             alert('El envío a Google Sheets no está configurado. Por favor, contacte al administrador.');
             submitButton.disabled = false;
